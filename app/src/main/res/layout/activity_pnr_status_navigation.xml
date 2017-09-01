@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:hint="ENTER PNR"
+            android:gravity="center"
+            android:id="@+id/pnr_edittext"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="CHECK"
+            android:gravity="center"
+            android:id="@+id/pnr_button"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/invisible_pnr_status">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRAIN NAME"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="60dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAJAJAJ JJS JSJSJSJ"
+                android:textSize="15dp"
+                android:background="@color/colorAccent"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                android:id="@+id/train_name"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRAIN NUMBER"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="87716"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:background="@color/colorAccent"
+                android:textColor="#ffff"
+                android:id="@+id/train_no."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATE OF BORDING"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14/02/2017"
+                android:background="@color/colorAccent"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:id="@+id/date_of_bording"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PNR"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6446464664"
+                android:background="@color/colorAccent"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:id="@+id/pnr"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PASSANGER"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="CLASS"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="CLASS"
+                    android:background="@color/colorAccent"
+                    android:padding="5dp"
+                    android:textSize="18dp"
+                    android:layout_gravity="bottom"
+                    android:textColor="#ffff"
+                    android:id="@+id/train_class"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="@color/wallet_holo_blue_light"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="P1"
+                        android:textStyle="bold"
+                        android:textSize="19dp"
+                        android:textColor="#ffff"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="P2"
+                        android:textStyle="bold"
+                        android:textColor="#ffff"
+                        android:textSize="19dp"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="P3"
+                        android:textStyle="bold"
+                        android:textSize="19dp"
+                        android:textColor="#ffff"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="SEATES"
+                        android:textStyle="bold"
+                        android:textColor="#ffff"
+                        android:textSize="19dp"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="SEATES"
+                        android:textStyle="bold"
+                        android:textSize="19dp"
+                        android:padding="5dp"
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="SEATES"
+                        android:textStyle="bold"
+                        android:textSize="19dp"
+                        android:textColor="#ffff"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="STATUS"
+                        android:textStyle="bold"
+                        android:textSize="19dp"
+                        android:textColor="#ffff"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="STATUS"
+                        android:textStyle="bold"
+                        android:textColor="#ffff"
+                        android:textSize="19dp"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="STATUS"
+                        android:textStyle="bold"
+                        android:textColor="#ffff"
+                        android:textSize="19dp"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="CHART"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:id="@+id/chat_status"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@color/colorAccent"
+                    android:textColor="#ffff"
+                    android:text="NOT PREPARED"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRAIN FROM"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="60dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CODE"
+                android:textSize="15dp"
+                android:background="@color/colorAccent"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                android:id="@+id/from_station_code"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:textSize="15dp"
+                android:background="@color/colorAccent"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                android:id="@+id/station_from_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRAIN TO"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="60dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CODE"
+                android:textSize="15dp"
+                android:background="@color/colorAccent"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                android:id="@+id/to_station_code"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:textSize="15dp"
+                android:background="@color/colorAccent"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                android:id="@+id/station_to_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESERVAION FROM"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="60dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CODE"
+                android:textSize="15dp"
+                android:background="@color/colorAccent"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                android:id="@+id/reservation_station_code"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:textSize="15dp"
+                android:background="@color/colorAccent"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                android:id="@+id/station_reservation_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

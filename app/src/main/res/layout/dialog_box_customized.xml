@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/store_code_box"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:background="#DA5F6A"
+        android:text="STORE NAME(station code)"
+        android:scaleType="fitCenter"
+        android:layout_weight="0.09" />
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@android:drawable/star_on" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:id="@+id/rating_box"
+            android:background="@color/wallet_holo_blue_light"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="PT."
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="#DA5F6A"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:id="@+id/platform_box"
+            android:background="@color/wallet_holo_blue_light"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rupee_icon"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/price_box"
+            android:textStyle="bold"
+            android:background="@color/wallet_holo_blue_light"
+            android:textSize="70dp"
+            android:textColor="#ffff"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OK"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_dialog"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffffff" />
+
+</LinearLayout>

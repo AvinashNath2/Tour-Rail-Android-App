@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Tourail</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="array_station">
+        <item>Ataria (AA)</item>
+        <item>Angar (AAG)</item>
+        <item>Itehar (AAH)</item>
+        <item>Unnao Junction (ON)</item>
+        <item>Ankaikila (AAK)</item>
+        <item>Ghaziabad (GZB)</item>
+        <item>Amlai (AAL)</item>
+        <item>Angadippuram (AAM)</item>
+        <item>Ambiapur (AAP)</item>
+        <item>Adesar (AAR)</item>
+        <item>Asranada (AAS)</item>
+        <item>Ambav (AAV)</item>
+        <item>Aralvaymozhi (AAY)</item>
+        <item>Ambur (AB)</item>
+        <item>Abada (ABB)</item>
+        <item>Ambli Road (ABD)</item>
+        <item>Ambikeshwar (ABE)</item>
+        <item>Pattaravakkam (ABEO)</item>
+        <item>Ambale (ABLE)</item>
+
+    </string-array>
+    <string name="title_activity_maps1">Map</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_maps_4">Map</string>
+    <string name="title_activity_station__facility_">Map</string>
+    <string name="title_activity_start_tour_">Map</string>
+    <string name="title_activity_near_by_">Map</string>
+
+
+</resources>

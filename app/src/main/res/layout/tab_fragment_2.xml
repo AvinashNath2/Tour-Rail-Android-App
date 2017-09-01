@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.ronak.just_for_clone_tourailvt2.Activity_3_Virtula_tour$PlaceholderFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffff"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="OFFICS AT STATION"/>
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="12dp"
+                android:layout_alignParentEnd="true"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="5dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/rail_enquiry"
+                                android:src="@drawable/rail_enquiry"
+                                android:padding="8dp" />
+
+                        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="ENQUIRY"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="5dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/rpf_office"
+                                android:src="@drawable/rpf_icon"
+                                android:padding="8dp" />
+                        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="RPF OFFIC"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/railways_engg_office"
+                                android:src="@drawable/railways_engg_icon"
+                                android:padding="8dp" />
+                        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="RAIL ENGG."/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/waiting_room"
+                                android:src="@drawable/waiting_room_icon"
+                                android:padding="8dp" />
+
+                        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="WAITING ROOM"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/station_master"
+                                android:src="@drawable/station_master"
+                                android:padding="8dp" />
+                        </android.support.v7.widget.CardView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="STATION MASTER"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/clockroom"
+                                android:padding="8dp" />
+
+                        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="CLOAKROOM"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="30dp"
+                android:textColor="#ffff"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="FACILITY AT STATION"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="12dp"
+                android:layout_alignParentEnd="true"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="5dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/ticket_counter"
+                                android:src="@drawable/ticket"
+                                android:padding="8dp" />
+
+                        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="TICKET COUNTER"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="5dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/atm"
+                                android:src="@drawable/atm"
+                                android:padding="8dp" />
+                        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="ATM"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/snacks"
+                                android:src="@drawable/snacks"
+                                android:padding="8dp" />
+                        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="SNACKS"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/chairs"
+                                android:src="@drawable/chair"
+                                android:padding="8dp" />
+
+                        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="CHAIRS"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:id="@+id/parking"
+                                android:src="@drawable/parking"
+                                android:padding="8dp" />
+                        </android.support.v7.widget.CardView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="PARKING"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="5dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/colorAccent"
+                            android:elevation="@dimen/cardview_default_elevation">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/water"
+                                android:id="@+id/drinking_water"
+                                android:padding="8dp" />
+
+                        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:text="DRINKING WATER"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </HorizontalScrollView>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="PLATFORM"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:background="@color/wallet_holo_blue_light"
+            android:id="@+id/stares"
+            android:text="STAIRS"/>
+        <Button
+            android:layout_width="150dp"
+            android:textColor="#ffff"
+            android:background="@color/wallet_holo_blue_light"
+            android:layout_height="wrap_content"
+            android:id="@+id/undergroung"
+            android:text="UNDERGROUND"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:id="@+id/slope"
+            android:background="@color/wallet_holo_blue_light"
+            android:text="SLOPE"/>
+        <Button
+            android:layout_width="150dp"
+            android:textColor="#ffff"
+            android:background="@color/wallet_holo_blue_light"
+            android:layout_height="wrap_content"
+            android:id="@+id/lift"
+            android:text="LIFT"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
