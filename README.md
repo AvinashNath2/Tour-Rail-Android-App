@@ -9,9 +9,9 @@ It is the project based on the problem statement Virtual tour of railways statio
  
 ### Prerequisites
 
-- [Java 1.8]  (https://java.com/en/download/manual.jsp)
-- [Android Studio]  (https://developer.android.com/studio/index.html)
-- [Google street view API key]  (https://developers.google.com/maps/documentation/javascript/get-api-key)
+- [Java 1.8](https://java.com/en/download/manual.jsp)
+- [Android Studio](https://developer.android.com/studio/index.html)
+- [Google street view API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 - Working Backend that is on at this Link  
  
  
