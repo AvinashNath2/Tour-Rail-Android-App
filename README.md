@@ -6,11 +6,12 @@ It is the project based on the problem statement Virtual tour of railways statio
  
  
  
-######Prerequisites 
-Java 1.8  
-Android Studio  
-Google street view API key  
-Working Backend that is on at this Link  
+### Prerequisites
+
+- Java 1.8  
+- Android Studio  
+- Google street view API key  
+- Working Backend that is on at this Link  
  
  
  
