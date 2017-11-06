@@ -110,24 +110,29 @@ mSvp is StreetviewPanorama Object of the panorama fragment
 
 By default, everything is True listed below we can change it by using these commands 
 
+**setPanningGesturesEnabled()**
 ```
-setPanningGesturesEnabled()
-
 Determines whether the user will be able to re-orient the camera by dragging.
-      mSvp.setPanningGesturesEnabled(false);
-
-setUserNavigationEnabled()
+mSvp.setPanningGesturesEnabled(false);
+```
+**setUserNavigationEnabled()**
+```
 Determines whether the user will be able to move to a different panorama. Users can use a single tap on navigation links, or double tap the view, to move to a new panorama.
 mSvp.setUserNavigationEnabled(false);
+```
 
-setZoomGesturesEnabled()
+**setZoomGesturesEnabled()**
 Determines whether the user will be able to pinch to zoom.
-      mSvp.setZoomGesturesEnabled(false);
-In addition, you can determine whether users will see street names.
+```
+mSvp.setZoomGesturesEnabled(false);
+```
+*In addition, you can determine whether users will see street names.*
+```
 setStreetNamesEnabled()
-Determines whether the user is able to see street names displayed on the ground.
+```
+*Determines whether the user is able to see street names displayed on the ground.*
+```
 mSvp.setStreetNamesEnabled(false);
-
 ```
 
 
