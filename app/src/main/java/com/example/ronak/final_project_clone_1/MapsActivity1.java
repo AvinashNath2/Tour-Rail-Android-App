@@ -34,7 +34,8 @@ public class MapsActivity1 extends FragmentActivity implements OnMapReadyCallbac
     private String entry_gate_name;
     private String entry_g;
     private String exit_gate_name;
-    private String name
+    private String name;
+    private String name_34;
 
     String[] entry_gate_name_part;
     String[] exit_gate_name_part;
