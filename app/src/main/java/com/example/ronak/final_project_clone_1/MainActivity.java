@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity
     private String json_entry_key;
     private String json_exit_key;
     private String json_pf_number;
+    private String ds;
     private String json_pf_type;
     private String stares;
 
